@@ -1,13 +1,11 @@
-<app-comp2></app-comp2>
+<h1>Menu</h1>
+<!-- ul>li*3 -->
+<ul>
+  <li><a routerLink="/gatos">Gatos</a></li>
+  <li><a routerLink="/perros">Perros</a></li>
+  <li><a routerLink="/tortugas">Tortugas</a></li>
+</ul>
 
-<h1 class='text-center'>
-  {{title}}
-</h1>
-
-
-<input type="text" (blur)='holaMundo()' [value]='title'>
-
-<button (click)='holaMundo()'>Hola Mundo</button>
-
-
-<app-comp2></app-comp2>
+<h2>Inicio</h2>
+<router-outlet></router-outlet>
+<h2>Fin</h2>
