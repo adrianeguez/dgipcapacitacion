@@ -1,33 +1,30 @@
-import { Injectable } from '@angular/core';
-import {Http, Response, Headers, RequestOptions} from '@angular/http';
-import 'rxjs/add/operator/map';
+  import { Injectable } from '@angular/core';
+  import {Http, Response, Headers, RequestOptions} from '@angular/http';
+  import {Observable} from 'rxjs/Rx';
+  import 'rxjs/add/operator/map';
 
-@Injectable()
+  @Injectable()
+  export class MyNewServiceService {
 
+    masterUrl:string='https://revisiondoctoral-adrianeguez.c9users.io/';
 
-export class MyNewServiceService {
+    constructor(private _http: Http) {
+     }
 
-  masterUrl:String='https://revisiondoctoral-adrianeguez.c9users.io/';
+  matricula(){
 
-  constructor(private _http: Http) {
+    let urlLocal = 'Matricula';
 
-
-   }
-
-matricula(){
-
-  let urlLocal = 'Matricula';
-
-  return {
-      getAll: ()=>{
-        return this._http
-          .get(this.masterUrl + urlLocal)
-          .map((res: Response) => res.json());
+    return {
+        getAll: ()=>{
+          return this._http
+            .get(this.masterUrl + urlLocal)
+            .map((res:Response) => res.json());
+        }
       }
-    }
 
 
 
-}
+  }
 
-}
+  }
