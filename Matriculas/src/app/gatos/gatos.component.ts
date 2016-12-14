@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ServiciosService} from "../servicios/servicios.service";
 
 @Component({
   selector:'ani-gatos', //<ani-gatos></ani-gatos>
@@ -6,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class GatoComponent implements OnInit{
-  constructor(){
+  nombreDuenoLocal:string='';
+
+  constructor(private _serviciosService:ServiciosService){
   }
   ngOnInit(){
+    this.nombreDuenoLocal = this._serviciosService.getNombreDueno();
   }
 }
 

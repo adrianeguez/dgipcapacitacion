@@ -11,6 +11,7 @@ import {Routes, RouterModule} from "@angular/router";
 import {GatoComponent} from "./gatos/gatos.component";
 import {PerroComponent} from "./perros/perros.component";
 import {TortugaComponent} from "./tortugas/tortugas.component";
+import {ServiciosService} from "./servicios/servicios.service";
 
 
 // import se usa para importar las librerias
@@ -23,10 +24,10 @@ const rutasDefinidas: Routes = [
   {
     path: 'perros',
     component:  PerroComponent
-  },
-  { path: 'tortugas',
-    component: TortugaComponent
-  },
+    },
+    { path: 'tortugas',
+      component: TortugaComponent
+    },
   // { path: 'parametros/:idParametro', component: ParametroComponent }
 ];
 
@@ -46,6 +47,7 @@ const rutasDefinidas: Routes = [
     RouterModule.forRoot(rutasDefinidas)
   ],
   providers: [
+    ServiciosService
   ],
   bootstrap: [AppComponent]
 })

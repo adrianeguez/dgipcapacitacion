@@ -1,31 +1,16 @@
-import { Component } from '@angular/core';
-
+import { Component, OnInit } from '@angular/core';
+import {ServiciosService} from "./servicios/servicios.service";
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+export class AppComponent implements OnInit {
+  nombreDuenoLocal:string='';
 
-export class AppComponent {
-  title = 'app works!';
-
-  numeroUsuario:number = 2;
-
-  
-  constructor(){
-
-
+  constructor(private _serviciosService:ServiciosService){
   }
-
- 
-
-  holaMundo(){
-    console.log('Hola Mundo');
+  ngOnInit(){
+    this.nombreDuenoLocal = this._serviciosService.getNombreDueno();
   }
-
-
-
-
-
-
 }
