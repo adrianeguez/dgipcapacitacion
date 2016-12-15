@@ -14,5 +14,12 @@ export class GatoComponent implements OnInit{
   ngOnInit(){
     this.nombreDuenoLocal = this._serviciosService.getNombreDueno();
   }
+
+  cambiarNombreAMashi(){
+    this._serviciosService.setNombreDueno('Senor Gato');
+    this.nombreDuenoLocal = this._serviciosService.getNombreDueno();
+  }
+
+
 }
 

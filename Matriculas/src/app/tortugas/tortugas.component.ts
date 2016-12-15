@@ -16,8 +16,8 @@ export class TortugaComponent implements OnInit{
   }
 
   cambiarNombreAMashi(){
-    this._serviciosService.setNombreDueno('MASHI');
-    // this.nombreDuenoLocal = this._serviciosService.getNombreDueno();
+    this._serviciosService.setNombreDueno('Papa Tortuga');
+    this.nombreDuenoLocal = this._serviciosService.getNombreDueno();
   }
 
 

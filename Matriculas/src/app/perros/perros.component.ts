@@ -15,5 +15,12 @@ export class PerroComponent implements OnInit{
   ngOnInit(){
     this.nombreDuenoLocal = this._serviciosService.getNombreDueno();
   }
+
+  cambiarNombreAMashi(){
+    this._serviciosService.setNombreDueno('Mama Perro');
+    this.nombreDuenoLocal = this._serviciosService.getNombreDueno();
+  }
+
+
 }
 

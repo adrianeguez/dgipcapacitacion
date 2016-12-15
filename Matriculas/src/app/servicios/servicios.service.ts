@@ -1,11 +1,18 @@
-import { Injectable } from '@angular/core';
+import { Injectable, EventEmitter } from '@angular/core';
 
 @Injectable()
 
 export class ServiciosService {
+  eventoAEmitir = new EventEmitter();
+  eventoAEmitir2 = new EventEmitter();
+
+
+
   nombre:string='';
   private nombreDueno:string='Adrian';
   constructor(){
+
+    this.eventoAEmitir = new EventEmitter();
 
   }
   getNombreDueno():string{
@@ -14,6 +21,7 @@ export class ServiciosService {
   setNombreDueno(nuevoNombre:string):void{
     console.log('Se cambio al nombre:', nuevoNombre);
     this.nombreDueno = nuevoNombre;
+    this.eventoAEmitir.emit(nuevoNombre);
     console.log('El valor actual:', this.nombreDueno);
   }
 
