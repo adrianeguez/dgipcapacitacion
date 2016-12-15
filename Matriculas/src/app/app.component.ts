@@ -38,4 +38,21 @@ export class AppComponent implements OnInit {
         });
   }
 
+  borrarFacultadID(idFacultad:string){
+    this._facultadApiService
+      .borrarUno(idFacultad)
+      .subscribe(
+        successData=>{
+          console.log('Llego la respuesta del servidor',successData);
+        for(let i=0;i<this.facultades.length;i++){
+          if(this.facultades[i].id==idFacultad){
+            this.facultades.splice(i,1);
+          }
+        }
+      },
+        errorData=>{
+        console.log('Hubo el error',errorData)
+        });
+  }
+
 }

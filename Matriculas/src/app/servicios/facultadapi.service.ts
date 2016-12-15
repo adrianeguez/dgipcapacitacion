@@ -19,12 +19,18 @@ export class FacultadApiService {
 
   buscarTodos(){
     return this._http
-      .get(this.masterUrl+'/1')
+      .get(this.masterUrl)
       .map((res: Response) => res.json());
   }
   buscarUno(idFacultad:string){
     return this._http
       .get(this.masterUrl+'/'+idFacultad)
+      .map((res: Response) => res.json());
+  }
+
+  borrarUno(idFacultad:string){
+    return this._http
+      .delete(this.masterUrl+'/'+idFacultad)
       .map((res: Response) => res.json());
   }
 

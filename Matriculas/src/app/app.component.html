@@ -33,6 +33,18 @@
         <h3>{{facultad.id}} - {{facultad.nombre | uppercase }}</h3>
         <p>Creado: {{facultad.createdAt | date:'medium'}}</p>
         <p>Actualizado: {{facultad.updatedAt | date:'medium'}}</p>
+
+        <button class="btn btn-block btn-success"
+                (click)="buscarFacultadID(facultad.id)"
+        >
+          Buscar
+        </button>
+      <button class="btn btn-block btn-warning"
+              (click)="borrarFacultadID(facultad.id)"
+      >
+        borrar
+      </button>
+
     </div>
 </div>
 
