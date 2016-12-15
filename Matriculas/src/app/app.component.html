@@ -23,8 +23,19 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+<br>
+<br>
+<h2>Inicio</h2>
+ <!--.row-->
+<div class="row">
+  <!--.col-sm-4-->
+    <div class="col-sm-4" *ngFor="let facultad of facultades">
+        <h3>{{facultad.id}} - {{facultad.nombre | uppercase }}</h3>
+        <p>Creado: {{facultad.createdAt | date:'medium'}}</p>
+        <p>Actualizado: {{facultad.updatedAt | date:'medium'}}</p>
+    </div>
+</div>
 
-<h2 [hidden]="true">Inicio</h2>
 <router-outlet></router-outlet>
 <h2 [hidden]="false">Fin</h2>
 

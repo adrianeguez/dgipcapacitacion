@@ -15,9 +15,16 @@ export class FacultadApiService {
     this.masterUrl = _masterURLService.url+this.modelo;
       // this._masterURLService = _masterURLService;
     }
+  // https://revisiondoctoral-adrianeguez.c9users.io/Facultad/1
+
   buscarTodos(){
     return this._http
-      .get(this.masterUrl)
+      .get(this.masterUrl+'/1')
+      .map((res: Response) => res.json());
+  }
+  buscarUno(idFacultad:string){
+    return this._http
+      .get(this.masterUrl+'/'+idFacultad)
       .map((res: Response) => res.json());
   }
 

@@ -2,88 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aac73d57-7aa8-4c57-98ce-98b8f56823c6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/assets/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/.sailsrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/api/controllers/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/api/models/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/api/policies/sessionAuth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/api/responses/badRequest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/api/responses/created.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/api/responses/forbidden.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/api/responses/notFound.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/api/responses/ok.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/api/responses/serverError.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/api/services/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/assets/images/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/assets/js/dependencies/sails.io.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/assets/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/assets/styles/importer.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/assets/templates/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/config/blueprints.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/config/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/config/connections.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/config/cors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/config/csrf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/config/env/development.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/config/env/production.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/config/globals.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/config/http.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/config/i18n.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/config/locales/_README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/config/locales/de.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/config/locales/en.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/config/locales/es.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/config/locales/fr.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/config/log.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/config/models.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/config/policies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/config/routes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/config/session.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/config/sockets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/config/views.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/tasks/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/tasks/config/clean.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/tasks/config/coffee.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/tasks/config/concat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/tasks/config/copy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/tasks/config/cssmin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/tasks/config/jst.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/tasks/config/less.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/tasks/config/sails-linker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/tasks/config/sync.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/tasks/config/uglify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/tasks/config/watch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/tasks/pipeline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/tasks/register/build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/tasks/register/buildProd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/tasks/register/compileAssets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/tasks/register/default.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/tasks/register/linkAssets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/tasks/register/linkAssetsBuild.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/tasks/register/linkAssetsBuildProd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/tasks/register/prod.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/tasks/register/syncAssets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/views/403.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/views/404.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/views/500.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/views/homepage.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ApiMascotas/views/layout.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Matriculas/src/app/app.component.html" afterPath="$PROJECT_DIR$/Matriculas/src/app/app.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Matriculas/src/app/app.component.ts" afterPath="$PROJECT_DIR$/Matriculas/src/app/app.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Matriculas/src/app/gatos/gatos.component.html" afterPath="$PROJECT_DIR$/Matriculas/src/app/gatos/gatos.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Matriculas/src/app/gatos/gatos.component.ts" afterPath="$PROJECT_DIR$/Matriculas/src/app/gatos/gatos.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Matriculas/src/app/perros/perros.component.html" afterPath="$PROJECT_DIR$/Matriculas/src/app/perros/perros.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Matriculas/src/app/perros/perros.component.ts" afterPath="$PROJECT_DIR$/Matriculas/src/app/perros/perros.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Matriculas/src/app/servicios/servicios.service.ts" afterPath="$PROJECT_DIR$/Matriculas/src/app/servicios/servicios.service.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Matriculas/src/app/tortugas/tortugas.component.ts" afterPath="$PROJECT_DIR$/Matriculas/src/app/tortugas/tortugas.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Matriculas/src/index.html" afterPath="$PROJECT_DIR$/Matriculas/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Matriculas/src/app/app.module.ts" afterPath="$PROJECT_DIR$/Matriculas/src/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Matriculas/src/app/servicios/facultadapi.service.ts" afterPath="$PROJECT_DIR$/Matriculas/src/app/servicios/facultadapi.service.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -98,6 +21,7 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="dgipcapacitacion" />
   </component>
@@ -106,9 +30,21 @@
       <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Matriculas/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="476">
+              <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Matriculas/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="43" />
+              <folding>
+                <element signature="e#381#435#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,8 +62,8 @@
       <file leaf-file-name="facultadapi.service.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Matriculas/src/app/servicios/facultadapi.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="11" />
+            <state relative-caret-position="435">
+              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -189,23 +125,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tortugas.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Matriculas/src/app/tortugas/tortugas.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Matriculas/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1224">
-              <caret line="2" column="67" lean-forward="false" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
+            <state relative-caret-position="609">
+              <caret line="37" column="11" lean-forward="false" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
+                <element signature="n#!!block;n#ngOnInit#0;n#AppComponent#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -227,7 +154,6 @@
         <option value="$PROJECT_DIR$/Matriculas/src/app/comp2/comp2.component.ts" />
         <option value="$PROJECT_DIR$/Matriculas/src/app/my-new-service.service.ts" />
         <option value="$PROJECT_DIR$/Matriculas/src/app/comp2/comp2.component.html" />
-        <option value="$PROJECT_DIR$/Matriculas/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/Matriculas/src/app/tortugas/tortugas.component.html" />
         <option value="$PROJECT_DIR$/Matriculas/src/index.html" />
         <option value="$PROJECT_DIR$/Matriculas/src/app/tortugas/tortugas.component.ts" />
@@ -235,9 +161,10 @@
         <option value="$PROJECT_DIR$/Matriculas/src/app/gatos/gatos.component.ts" />
         <option value="$PROJECT_DIR$/Matriculas/src/app/perros/perros.component.html" />
         <option value="$PROJECT_DIR$/Matriculas/src/app/gatos/gatos.component.html" />
-        <option value="$PROJECT_DIR$/Matriculas/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/Matriculas/src/app/servicios/servicios.service.ts" />
         <option value="$PROJECT_DIR$/Matriculas/src/app/servicios/masterURL.service.ts" />
+        <option value="$PROJECT_DIR$/Matriculas/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/Matriculas/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/Matriculas/src/app/servicios/facultadapi.service.ts" />
         <option value="$PROJECT_DIR$/Matriculas/src/app/app.component.ts" />
       </list>
@@ -459,6 +386,7 @@
     <property name="editor.config.accepted" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Adrian/Documents/GitHub/dgipcapacitacion/Matriculas/src/app/app.module.ts" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -541,19 +469,19 @@
       <option name="presentableId" value="Default" />
       <updated>1481718683103</updated>
       <workItem from="1481718684497" duration="9471000" />
-      <workItem from="1481811848869" duration="4092000" />
+      <workItem from="1481811848869" duration="5832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13563000" />
+    <option name="totallyTimeSpent" value="15303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.146875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -649,8 +577,8 @@
         <state relative-caret-position="1554">
           <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
           <folding>
-            <element signature="e#0#58#0" expanded="false" />
-            <element signature="e#381#435#0" expanded="false" />
+            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#381#435#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -721,6 +649,7 @@
           <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="26" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
+            <element signature="n#!!block;n#ngOnInit#0;n#AppComponent#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -755,17 +684,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Matriculas/src/app/servicios/servicios.service.html" />
-    <entry file="file://$PROJECT_DIR$/Matriculas/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1554">
-          <caret line="49" column="20" lean-forward="false" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#58#0" expanded="false" />
-            <element signature="e#381#435#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Matriculas/src/app/tortugas/tortugas.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -854,16 +772,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Matriculas/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="476">
+          <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Matriculas/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="43" />
+          <folding>
+            <element signature="e#381#435#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Matriculas/src/app/servicios/facultadapi.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="11" />
+        <state relative-caret-position="435">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
@@ -872,10 +800,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Matriculas/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1224">
-          <caret line="2" column="67" lean-forward="false" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
+        <state relative-caret-position="609">
+          <caret line="37" column="11" lean-forward="false" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
+            <element signature="n#!!block;n#ngOnInit#0;n#AppComponent#0" expanded="false" />
           </folding>
         </state>
       </provider>

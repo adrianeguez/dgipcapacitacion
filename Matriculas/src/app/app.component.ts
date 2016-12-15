@@ -17,6 +17,7 @@ export class AppComponent implements OnInit {
         .buscarTodos()
         .subscribe(facultades=>{
           this.facultades = facultades;
+          console.log(this.facultades);
         });
     this.nombreDuenoLocal = this._serviciosService.getNombreDueno();
     // Escuchar el evento del servico _serviciosService
@@ -28,4 +29,13 @@ export class AppComponent implements OnInit {
           console.log(this.nombreDuenoLocal);
         })
   }
+
+  buscarFacultadID(idFacultad:string){
+    this._facultadApiService
+        .buscarUno(idFacultad)
+        .subscribe(facultad=>{
+          console.log(facultad);
+        });
+  }
+
 }

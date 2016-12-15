@@ -12,6 +12,8 @@ import {GatoComponent} from "./gatos/gatos.component";
 import {PerroComponent} from "./perros/perros.component";
 import {TortugaComponent} from "./tortugas/tortugas.component";
 import {ServiciosService} from "./servicios/servicios.service";
+import {MasterURLService} from "./servicios/masterURL.service";
+import {FacultadApiService} from "./servicios/facultadapi.service";
 
 
 // import se usa para importar las librerias
@@ -47,7 +49,9 @@ const rutasDefinidas: Routes = [
     RouterModule.forRoot(rutasDefinidas)
   ],
   providers: [
-    ServiciosService
+    ServiciosService,
+    MasterURLService,
+    FacultadApiService
   ],
   bootstrap: [AppComponent]
 })
